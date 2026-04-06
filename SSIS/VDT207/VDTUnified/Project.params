@@ -1,0 +1,5 @@
+﻿<?xml version="1.0"?>
+<SSIS:Parameters
+  SSIS:Salt="QRkg5xvGt7I="
+  SSIS:IV="GAY371GhDFQ6e4Fb/2HAqw=="
+  SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">+m1AXQGn4BEyEZHZjSffgUrsod4/rZDitSDznBErDzmQxRBlUN4jw280BC3ejBrJOSqBKV02RCS35mgHthbQ2BqTSmYQOm32FauPFeMz7gU=</SSIS:Parameters>

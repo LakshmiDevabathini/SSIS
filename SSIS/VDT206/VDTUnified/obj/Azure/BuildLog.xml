@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectInfo>
+    <Name>VDT206Unified</Name>
+    <LastWriteTime>2026-04-03T16:32:31.7954343Z</LastWriteTime>
+    <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+    <Salt>ewp+JxG+</Salt>
+    <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAAB6vZv5pVmM9yC0wU6GihYv/jU3DcC/U+haejMdN6g+zwAAAAAOgAAAAAIAACAAAAA83lUGJWEKW2MBdt2Tq6tqgHs34awPmHzYWID9g+ovjzAAAADx+Bhk6+eaziPVjHLNKO4aGVRO52rQmLKzh8x5gj3itE113X/bQ5ki4BpjV6MQvnxAAAAAcjBkd0tJUvvzEW63N27oHG2pXGWCkkTZklFl9/EW551JzaDC0uFyj8soiUHcZdbjygOYz8tNCKUxatCGNLbD9w==</LastKnownProtectedHashedPassword>
+  </ProjectInfo>
+  <LastBuildInfos>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT206 Unified ClaimsFlatFile.dtsx</Name>
+      <LastWriteTime>2024-03-12T03:09:35.9345494Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>zhGoED8F</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAABtj8U9zhwupFA2LadU7Ox9TUxp2VGrCktSzCBCWx8IDgAAAAAOgAAAAAIAACAAAADzgnnbHMhqzZ2WAK8cXB9rRH68kdgKguhnCqCQWN7qhjAAAAArCb3HeUJNcZCkZezDcbXueoqPXxSjMri38lsRE6lfa6QIooNL7DuiT6wxEvghU0ZAAAAA2G4mpCXDjsK51vObDCMrgXB4DvDRtzxsKea93tbg5qZZqOQuF51z2n8OMumSRtzUJ7Yvv+V9CZ5BoNAG6Qwoww==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT206 Unified CRSPFlatFile.dtsx</Name>
+      <LastWriteTime>2024-03-12T03:10:23.8577161Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>JQjwsF7R</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAADMH7OgNL+KXvisRDGsy8MtZBKpmnGkcDT70wvcOSO6FAAAAAAOgAAAAAIAACAAAABjtQKs1BmQQhaZj1Dw2VKnKKMf+LvAgktnxzvMMOC7eTAAAACp7oNWSxVYcYVaWwabH6lHfmEr7NW4GWSVf2eSsveY5nOTRuWndtdMktm1hYLdvmVAAAAAKZ6N8duUtNX16T1t3hzgEcy8OjBYZw+Kxed1Q5RSWHl6fY/WpAiZf+AwfLdM5gMYutaA5CgAPHhvpAOEiWijhg==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT206 Unified EligibilityFlatFile.dtsx</Name>
+      <LastWriteTime>2026-03-10T23:58:50.9341836Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>dkuHg6ed</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAAAj7Im0kbluyjp1Rtc9k2Xv5OZzqsVzlMNrOZ0DqbDeeAAAAAAOgAAAAAIAACAAAACBwwK+RIu7DxA1fXwXpvfKpFrdCrpCwNKMK0qz5KNDvTAAAADsCd3O7bMmCmyyMxvB7KVb2AMEJKMEORsgh+7SfsRc74Z0Q+SUW55epNza+B7wLMNAAAAACuK+hn0DSUn9d6iYqWfg0ud8rhiT9U7egx9aNc8t1rfgFVVgM8yian7ySbMXWs95w6HEO8YFHenKZpE1EHmAzw==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT206 Unified MemberFlatFile.dtsx</Name>
+      <LastWriteTime>2024-03-12T03:08:34.3670406Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>UhdF8Sw0</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAAAbo3rxzyQIVrfqjKmf6Eq5KCDmTYD8/POJYJ4gdSbW7AAAAAAOgAAAAAIAACAAAADMg9n0TkzYGs33bICGOf5MJQXN7GLAurTNk1cJoxTPPjAAAABUotI6HOeqWgyZwrnvyMs5luP+UPrYT6Uoxln5waeWzX50tbL58OgUubr5EyB0JIpAAAAADUMLO7yNVATPTxA5jRB93cHB98ZByp26Cgy98J4uvf280n8VGcSHX5ffQ3G1boQgsek/TGQXARsY5PjxXOT2Kg==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT206 Unified ProviderFlatFile.dtsx</Name>
+      <LastWriteTime>2024-03-12T03:12:07.7752035Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>A2YWJezE</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAADQv3zEA5rVNjnoueLGIJ33UxS/Vxfg1Zoi+0VG1rDroAAAAAAOgAAAAAIAACAAAADQGOVtt0k/BJxppFUww18jXw9KO2Ynk6f4UK5CLnZWbDAAAADv+01MidORElD9Wkyw9vTy4q39yUHoPzDY5Ye4W9bkO+e5ADKh/Fhv20LGfjO9APdAAAAAe8hYMkFTSS3PjBQKzfq0qSd+GWeWoge5CcU0ReyhEzXMBvoogrusY2lxRh1WzhV09izM4LkQ9sBKw7fxiyq7AA==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT206 Unified RxFlatFile.dtsx</Name>
+      <LastWriteTime>2024-03-12T03:12:55.4691683Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>Zkuf0MCt</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAAAXIwBbY+MqDNiA4FvlKu27i+ArUyzavAREIEtFAL4TxgAAAAAOgAAAAAIAACAAAAC4O+Pji+RgfzTe1IajyDgd/9pDNcLsVcEC4DChkx5srzAAAADaBdhtZLQhxvgLCcFhp02v1DqkuGTsnW2lBA6gYPEPio85RicIjvQ4fkfiq0V1HXhAAAAACl3RH5b/d/R7PghH+Kgr4EevkKBtsZqqKnCeBslp/fs6AqRhR6fcLQC5WnZEq2nITEB4iOg1WOjLcZfHBFxKFQ==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Load All VDT206 Unified Tables.dtsx</Name>
+      <LastWriteTime>2024-03-11T22:18:00.0015645Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>Pqs22kbB</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAAArH0EYh9881wXh4vsn5eIBp7R4q7DZeGKHuV5uMnACZAAAAAAOgAAAAAIAACAAAADQoS+hCu2i/+NNZUIEBKBnDKelkLCYcGaQO3A0Q/fHwjAAAAAZ+eX1DqlvSIP54+V2s6/uEk1gZNQMDc04khkYF+8mt2PrdlVskEX3037KKuKNSV5AAAAAzMvQS247cFjdU5hDVVqohPRokiVhI7c3luqB4s3Zrm4wBuAICrJ4psYlb6SzeOBa+VgREMK6LKCIMK6OZ///bQ==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Load VDT206 Unified Driver.dtsx</Name>
+      <LastWriteTime>2024-03-11T21:11:50.3139526Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>nU250y9B</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAABv7qLhaR2kbZbvD8HvcHMSAoeuMWubLqnfAW0tKGlojQAAAAAOgAAAAAIAACAAAADafCdvLN1mKA3MdYGjqwA7hme2TocmJBwTjV+hdFQlRjAAAADvC61whIncnZMqc7RKfzF3O7nSfu0uXb09oQT3rbGE8p2nqk2nOdO90BY9/g/GOJZAAAAASLyGXY9X6gIsmBZ2vW7gCiIzjDG7wnVzVwep5XsZvB17IbE7+2ebwaLph4B+Qo8uj+780g/OE/n4MdeQaCQOIQ==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>SFTP VDT206 Unified Files.dtsx</Name>
+      <LastWriteTime>2026-03-17T20:09:41.5562022Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>JEaWn9gQ</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAACO8hVlsEvRHJE+AdNR7js0xlEzSsquCPjy7WyPsMdkBQAAAAAOgAAAAAIAACAAAACR5k/4kxMb8FoeUdIF5z2gXNDwHF9ZKkOPBhIoSLryNjAAAAAivJSfs245v8Bjw7LYR8gAwYmSv1YOSmDEScOaos+UlOGxv57tCf3k6IyRsB1RiGBAAAAAs5horEBy7u0QtF2gn72ZHeJjyOB4oXhZW10oB77jxXmbjNyr0p3DMoPPTEL0hiRTgNRBKwbdgt64vJclRPZ58g==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Package1.dtsx</Name>
+      <LastWriteTime>2024-01-29T16:21:17.4405833Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>nykl9hK8</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAAA/hcC9ZAjXdpjAc3Rs0n3nXkTN9CbQkdeDa8iQnpeqMwAAAAAOgAAAAAIAACAAAACDCgaT9RoX44XC4T/SBLBQROAyFc7QCBQA2Ymhrvr/8TAAAACYd9ra9iYW2ZpjZYRE0g+Pg2JaU1KjdhXXZvvyXdZi5iaoc9QeRUtgVuSNtArX3E5AAAAAoWDPH/s5k1CHmUNyw5BcQwnAWdiAein491vc8PgVnwFlNILusNvxL8j6P7sB81Cnn/Bs41qXFU/BS4KHihpJXg==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Package2.dtsx</Name>
+      <LastWriteTime>2024-10-10T16:54:56.8359199Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>QWpk/+LP</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAABGzkAfTDMIKhv+MGAjrEmz722lKDzPWgGE87fsL2Eb4gAAAAAOgAAAAAIAACAAAAA6oM7t/4029H0dhOyMh3bi2Y75Rdv3NyqhmVcN8f6oozAAAADunPzeVjdXZVO0mA/Bz4jBarOej2la/bsY1UMZ9wOy6oppZ3qHP3MBHnBshXVME0tAAAAA6ZHlwVAwPgiziUZu5LkX9Eg1OIDMdeyZK+N2u+rBPRPZipTQJ/TuPgNWN1cqSTxjPG5VeniX4iFveNQYOQYDqg==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT206 Unified LocusFlatFile.dtsx</Name>
+      <LastWriteTime>2026-04-03T16:37:25.2659234Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>P76eM0kz</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArCCq0TKJQkOsZcrT6hmYEgAAAAACAAAAAAAQZgAAAAEAACAAAADhPHk2l8RanLUFwVMZha529FBLtRTQ81V64rZm65UmqgAAAAAOgAAAAAIAACAAAAA3ro6TXWW1H7OaZHXvwIV6jTDgITwei368qKlyguz3PDAAAAA3Ri5m8MjBMXVtCeS5bN/ZQB7YYBk3HgUlrkchjG7n6mPD7i7jYIaot/UDqQjoJFNAAAAAqLCO8o8r+DIDgvFXlpKYYEcrs5NJf8osCR6xGBzJ2+vRFsmWIgsljawogpQsPn+5kpf6zJ2zUuGctFSHkyIimw==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+  </LastBuildInfos>
+</BuildLog>

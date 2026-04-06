@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectInfo>
+    <Name>VDT207Unified</Name>
+    <LastWriteTime>2025-04-03T16:59:50.5822256Z</LastWriteTime>
+    <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+    <Salt>L8miS5p3</Salt>
+    <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAriKNXuxpGUqfZygR5YTaYAAAAAACAAAAAAADZgAAwAAAABAAAADtj/ToAc8xkbsmz3Deh5FAAAAAAASAAACgAAAAEAAAABUiUwKQBByXza6ZJvKW/yUoAAAAdxHi7acarhAStYK1ibrdaSlMcpObqri0AESI/J+CakbGypHuCj//jxQAAABE7xQfwWUjIC0W3F9EEi9ZBzhA8Q==</LastKnownProtectedHashedPassword>
+  </ProjectInfo>
+  <LastBuildInfos>
+    <ProjectBuildItemInfo>
+      <Name>Package1.dtsx</Name>
+      <LastWriteTime>2024-01-29T16:21:17.4405833Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>iO9t51qA</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAriKNXuxpGUqfZygR5YTaYAAAAAACAAAAAAADZgAAwAAAABAAAAC9Sd3h5ATlf6LRr9svxGBrAAAAAASAAACgAAAAEAAAABmDdCceGubtKjPQtaFQC7IoAAAAAergHf/4IEZvQxh2iLyGDSo+AbvNDBk67W5/vdW5GBGfkGRXMRIVDBQAAADubAJciXVKUNJ35vFtEG9VTSCLig==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT207 Unified ClaimsFlatFile.dtsx</Name>
+      <LastWriteTime>2025-04-03T16:59:40.1591542Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>MFu4h8Ac</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAriKNXuxpGUqfZygR5YTaYAAAAAACAAAAAAADZgAAwAAAABAAAADVzw4H9e2zU6L8LlCBX7OBAAAAAASAAACgAAAAEAAAAOMmV29bxa4iNCAEeU0Fo9coAAAACdTWZChbtOboSrVBMie+T5mPgYs0Pg0E44QihK7pMQ3BiCbXkWPOVBQAAACI8RY3UtnPobk269LQl0YCjeIKoQ==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT207 Unified CRSPFlatFile.dtsx</Name>
+      <LastWriteTime>2024-11-13T17:51:45.4966826Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>8x8kHgNz</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAriKNXuxpGUqfZygR5YTaYAAAAAACAAAAAAADZgAAwAAAABAAAADbQpAYx+Pjeb/uDVSesJk6AAAAAASAAACgAAAAEAAAAOeLk8mHqe/zd1gl9/VwjWIoAAAACa/DmumTGR4z/s6JhSIWstaeO686s1uM6Akk3+bmPcqkbwoccsCdyRQAAAAcPF/OM/vUuacYiqcFSEYfdaHbEQ==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT207 Unified EligibilityFlatFile.dtsx</Name>
+      <LastWriteTime>2024-11-13T17:52:15.4097341Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>OBE72zdb</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAriKNXuxpGUqfZygR5YTaYAAAAAACAAAAAAADZgAAwAAAABAAAAAjs0HSTM+kh6orQP1TOdDxAAAAAASAAACgAAAAEAAAAKdOG1+LEj5WuZCG0Y0/0wwoAAAAh7ryc1EkZqoZbiR71ZFXlT+ODTFWfVIvV2uOk7jqhC+e8SSEyCej5BQAAABLRKX7eFgcjJKmMLYpg4+PP/3IvA==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT207 Unified MemberFlatFile.dtsx</Name>
+      <LastWriteTime>2024-08-20T18:26:31.2708528Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>S7mybtLK</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAriKNXuxpGUqfZygR5YTaYAAAAAACAAAAAAADZgAAwAAAABAAAACzoA35svN1uCQ7vOJc7BgdAAAAAASAAACgAAAAEAAAADWSrG2/Tjfudu+S3DdQ1oooAAAAC2kpDVZk8OIs1ei9hwC7//Qbwavjjk81TnlhgJAc8cCYFAAz36PXlRQAAAC5Dvfz5PEQPjHk+FfPvcZ0CoRGYw==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT207 Unified ProviderFlatFile.dtsx</Name>
+      <LastWriteTime>2024-08-20T17:23:15.371483Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>l4Nf4/+B</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAriKNXuxpGUqfZygR5YTaYAAAAAACAAAAAAADZgAAwAAAABAAAADPc5tzUWK7CvAzh62SZ271AAAAAASAAACgAAAAEAAAAKUiWPpVuqgXa/WiySj1mR0oAAAA5lqUBloQ/mRDeUvGvTryFuuy1H6W+8B8CmWGo483IMeribgUOxMkqRQAAACD59BaztGtjkWj+9CbkD/2M5xDHw==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CreateVDT207 Unified RxFlatFile.dtsx</Name>
+      <LastWriteTime>2024-08-22T14:19:36.3240858Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>iCld83gu</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAriKNXuxpGUqfZygR5YTaYAAAAAACAAAAAAADZgAAwAAAABAAAACz8U/8EMRfaWn+AZ7GSFPZAAAAAASAAACgAAAAEAAAAHV9JCwgYdNHVLKWgB0x91QoAAAAAWfJPEka1UKxocw+rwEqboHgwZLpHf8DQ/86+uBPl9L5qacwfIqlRRQAAAC7Kki9rho0oLIu6uR4b/pwT4AKuw==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Load All VDT207 Unified Tables.dtsx</Name>
+      <LastWriteTime>2024-04-08T19:50:05.2987575Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>sfjRtTg0</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAriKNXuxpGUqfZygR5YTaYAAAAAACAAAAAAADZgAAwAAAABAAAACN6uNS4YX0yu4y91BcIDkPAAAAAASAAACgAAAAEAAAAE3ssbvDougY3UMPFwCJE6IoAAAAEFfbpN3LiJgoosiu8xOjwmFVZ6s2RZG6hI9rqkyttbTVq3MVnC/8hhQAAABYg1imhVgD33NUc/rZeBX/NUcRIQ==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Load VDT207 Unified Driver.dtsx</Name>
+      <LastWriteTime>2024-04-08T18:41:40.1805043Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>/fZAMa+V</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAriKNXuxpGUqfZygR5YTaYAAAAAACAAAAAAADZgAAwAAAABAAAAC2u1jg7AJL6o6tNFgdLJatAAAAAASAAACgAAAAEAAAAGTPD3jQTA/r/3MHpl2CZOcoAAAAI3/qgSqKAGVyGTdDT3f8NZj2TZ2l4/Ch7TVK31rUURI5MTYwqD1ivxQAAAArh4+t32B48l5by6gTwhu0mefjKg==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>SFTP VDT207 Unified Files.dtsx</Name>
+      <LastWriteTime>2024-11-13T15:01:11.1046191Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
+      <Salt>0oHrW1by</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAriKNXuxpGUqfZygR5YTaYAAAAAACAAAAAAADZgAAwAAAABAAAAAMEoncU8eVp1a4ct5CDAabAAAAAASAAACgAAAAEAAAANOy1vWEsuor1E84maZ8pNooAAAAnJ59f+4YYy7TamtgskJusduLSzLOmMQYMc68qNZZYt0ZxOjA5wrNShQAAABQgEPLzHhoxJULulWKPWzXFxnzYQ==</LastKnownProtectedHashedPassword>
+    </ProjectBuildItemInfo>
+  </LastBuildInfos>
+</BuildLog>
