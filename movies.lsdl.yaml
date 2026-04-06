@@ -1,0 +1,1170 @@
+Version: 3.4.1
+Language: en-US
+DynamicImprovement: HighConfidence
+Entities:
+  movie:
+    Definition:
+      Binding: {Table: Movies}
+    State: Generated
+    Terms:
+    - movie: {State: Generated}
+    - flick: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - picture: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - film: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+
+  movie.homepage:
+    Definition:
+      Binding: {Table: Movies, Column: Homepage}
+    State: Generated
+    Terms:
+    - homepage: {State: Generated}
+    - URL: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - location: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - site: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - file: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - address: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+
+  movie.imdb_id:
+    Definition:
+      Binding: {Table: Movies, Column: IMDB ID}
+    State: Generated
+    Visibility: Hidden
+    Terms:
+    - imdb id: {State: Generated}
+    - imdb identification: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb identity: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb identifier: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb credential: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+
+  movie.orginal_language:
+    Definition:
+      Binding: {Table: Movies, Column: Orginal Language}
+    State: Generated
+    Terms:
+    - orginal language: {State: Generated}
+    - orginal idiom: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.475}
+    - orginal lingo: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.475}
+    - orginal dialect: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.475}
+    - orginal patois: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.475}
+    - orginal tongue: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.461}
+    - orginal vernacular: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.461}
+    - orginal argot: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.461}
+    - orginal jargon: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.461}
+    - orginal speech: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.451}
+
+  movie.overview:
+    Definition:
+      Binding: {Table: Movies, Column: Overview}
+    State: Generated
+    Terms:
+    - overview: {State: Generated}
+    - impression: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - indication: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - synopsis: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - gestalt: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - summary: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - outline: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+
+  movie.tagline:
+    Definition:
+      Binding: {Table: Movies, Column: Tagline}
+    State: Generated
+    Terms:
+    - tagline: {State: Generated}
+
+  movie.movie_name:
+    Definition:
+      Binding: {Table: Movies, Column: Movie Name}
+    State: Generated
+    Terms:
+    - movie name: {State: Generated}
+    - name: {State: Generated, Weight: 0.97}
+    - movie nickname: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - movie title: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - movie label: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - movie tag: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    NameType: Name
+
+  movie.poster_path:
+    Definition:
+      Binding: {Table: Movies, Column: Poster Path}
+    State: Generated
+    Terms:
+    - poster path: {State: Generated}
+    - path: {State: Generated, Weight: 0.97}
+    - poster pathway: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.5}
+    - poster footpath: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.5}
+    - pathway: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - footpath: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - poster trail: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.485}
+    - poster track: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.485}
+    - poster route: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.485}
+    - trail: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - track: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - route: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+
+  movie.movies_count:
+    Definition:
+      Binding: {Table: Movies, Measure: Movies Count}
+    State: Generated
+    Terms:
+    - movies count: {State: Generated}
+    - movie amount: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+
+  individual:
+    Definition:
+      Binding: {Table: Individuals}
+    State: Generated
+    Terms:
+    - individual
+    - people: {LastModified: '2023-02-17T19:40:06.25Z'}
+    - person: {LastModified: '2023-02-17T19:40:06.25Z'}
+    - creature: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - separate: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - being: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - soul: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - single: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - type: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - singular: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - party: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - human: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - self: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+
+  individual.individual_ID:
+    Definition:
+      Binding: {Table: Individuals, Column: Individual ID}
+    State: Generated
+    Visibility: Hidden
+    Terms:
+    - individual ID: {State: Generated}
+    - individual identification: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - individual identity: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - individual identifier: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - individual credential: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+
+  individual.year_born:
+    Definition:
+      Binding: {Table: Individuals, Column: Year Born}
+    State: Generated
+    Terms:
+    - year born: {State: Generated}
+    - year: {State: Generated, Weight: 0.7}
+    - yr born: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    SemanticType: Time
+
+  individual.year_died:
+    Definition:
+      Binding: {Table: Individuals, Column: Year Died}
+    State: Generated
+    Terms:
+    - year died: {State: Generated}
+    - year: {State: Generated, Weight: 0.7}
+    - yr died: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    SemanticType: Time
+
+  individual.profession:
+    Definition:
+      Binding: {Table: Individuals, Column: Profession}
+    State: Generated
+    Terms:
+    - profession: {State: Generated}
+    - occupation: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - vocation: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - living: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - job: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - career: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - work: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - business: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+
+  individual.first_name:
+    Definition:
+      Binding: {Table: Individuals, Column: First Name}
+    State: Generated
+    Terms:
+    - first name: {State: Generated}
+    - first nickname: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - first title: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - first label: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - first tag: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - 1st name: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.582}
+
+  individual.last_name:
+    Definition:
+      Binding: {Table: Individuals, Column: Last Name}
+    State: Generated
+    Terms:
+    - last name: {State: Generated}
+    - last nickname: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - last title: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - last label: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - last tag: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - end name: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.582}
+    - final name: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.582}
+    - closing name: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.582}
+    - concluding name: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.582}
+    - finishing name: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.582}
+    - former name: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.582}
+
+  individual.individual_name:
+    Definition:
+      Binding: {Table: Individuals, Column: Individual Name}
+    State: Generated
+    Terms:
+    - individual name: {State: Generated}
+    - name: {State: Generated, Weight: 0.97}
+    - individual nickname: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - individual title: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - individual label: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - individual tag: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    NameType: Name
+
+  individual.gender:
+    Definition:
+      Binding: {Table: Individuals, Column: Gender}
+    State: Generated
+    Terms:
+    - gender: {State: Generated}
+    - sexuality: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.736}
+    - sex: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+
+  individual.names_count:
+    Definition:
+      Binding: {Table: Individuals, Measure: Names Count}
+    State: Generated
+    Terms:
+    - names count: {State: Generated}
+    - name amount: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+
+  individual.gender_profession_name:
+    Definition:
+      Binding: {Table: Individuals, Hierarchy: Gender Profession Name}
+    State: Generated
+    Terms:
+    - gender profession name: {State: Generated}
+    - gender profession: {State: Generated, Weight: 0.97}
+    - profession name: {State: Generated, Weight: 0.97}
+    - gender profession nickname: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.739}
+    - gender profession title: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.739}
+    - gender profession label: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.739}
+    - gender profession tag: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.739}
+    - profession nickname: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - profession title: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - profession label: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - profession tag: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - sexuality profession name: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.609}
+    - sexuality profession: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.6}
+
+  individual.gender_profession_name.gender:
+    Definition:
+      Binding: {Table: Individuals, Hierarchy: Gender Profession Name, HierarchyLevel: Gender}
+    State: Generated
+    Terms:
+    - gender: {State: Generated}
+    - sexuality: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.736}
+    - sex: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+
+  individual.gender_profession_name.profession:
+    Definition:
+      Binding: {Table: Individuals, Hierarchy: Gender Profession Name, HierarchyLevel: Profession}
+    State: Generated
+    Terms:
+    - profession: {State: Generated}
+    - occupation: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - vocation: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - living: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - job: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - career: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - work: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - business: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+
+  individual.gender_profession_name.individual_name:
+    Definition:
+      Binding: {Table: Individuals, Hierarchy: Gender Profession Name, HierarchyLevel: Individual Name}
+    State: Generated
+    Terms:
+    - individual name: {State: Generated}
+    - name: {State: Generated, Weight: 0.97}
+    - individual nickname: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - individual title: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - individual label: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - individual tag: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    NameType: Name
+
+  movie_principal:
+    Definition:
+      Binding: {Table: Movie Principals}
+    State: Generated
+    Terms:
+    - movie principal: {State: Generated}
+    - principal: {State: Generated, Weight: 0.97}
+    - main: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - major: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - chief: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - primary: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - prime: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - key: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - basic: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - fundamental: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - movie leader: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.475}
+    - movie doyenne: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.475}
+
+  movie_principal.imdb_id:
+    Definition:
+      Binding: {Table: Movie Principals, Column: IMDB ID}
+    State: Generated
+    Visibility: Hidden
+    Terms:
+    - imdb id: {State: Generated}
+    - imdb identification: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb identity: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb identifier: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb credential: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+
+  movie_principal.individual_ID:
+    Definition:
+      Binding: {Table: Movie Principals, Column: Individual ID}
+    State: Generated
+    Visibility: Hidden
+    Terms:
+    - individual ID: {State: Generated}
+    - individual identification: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - individual identity: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - individual identifier: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - individual credential: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+
+  movie_principal.category:
+    Definition:
+      Binding: {Table: Movie Principals, Column: Category}
+    State: Generated
+    Terms:
+    - category: {State: Generated}
+    - classification: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.736}
+    - class: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+    - type: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+    - grouping: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+    - kind: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+
+  movie_principal.character:
+    Definition:
+      Binding: {Table: Movie Principals, Column: Characters}
+    State: Generated
+    Terms:
+    - character: {State: Generated}
+    - atmosphere: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - attractiveness: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - charisma: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - charm: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - appeal: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - personality: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.466}
+    - oddity: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.466}
+    - eccentric: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.452}
+    - original: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.452}
+    - oddball: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.452}
+
+  movie_principal.principals_count:
+    Definition:
+      Binding: {Table: Movie Principals, Measure: Principals Count}
+    State: Generated
+    Terms:
+    - principals count: {State: Generated}
+    - principal amount: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+
+  genre:
+    Definition:
+      Binding: {Table: Genre}
+    State: Generated
+    Terms:
+    - genre: {State: Generated, Weight: 0.87}
+    - variety: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - genus: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - type: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - kind: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - field: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+
+  genre.imdb_id:
+    Definition:
+      Binding: {Table: Genre, Column: IMDB ID}
+    State: Generated
+    Visibility: Hidden
+    Terms:
+    - imdb id: {State: Generated}
+    - imdb identification: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb identity: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb identifier: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb credential: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+
+  genre.genre:
+    Definition:
+      Binding: {Table: Genre, Column: Genre}
+    State: Generated
+    Terms:
+    - genre: {State: Generated}
+    - variety: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - genus: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - type: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - kind: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - field: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+
+  movie_revenue:
+    Definition:
+      Binding: {Table: Movie Revenue}
+    State: Generated
+    Terms:
+    - movie revenue: {State: Generated}
+    - movie income: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - movie profit: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - movie turnover: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    - movie yield: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+
+  movie_revenue.imdb_id:
+    Definition:
+      Binding: {Table: Movie Revenue, Column: IMDB ID}
+    State: Generated
+    Visibility: Hidden
+    Terms:
+    - imdb id: {State: Generated}
+    - imdb identification: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb identity: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb identifier: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb credential: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+
+  movie_revenue.date:
+    Definition:
+      Binding: {Table: Movie Revenue, Column: Date}
+    State: Generated
+    Terms:
+    - date: {State: Generated}
+    - moment: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.736}
+    - period: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+    SemanticType: Time
+
+  movie_revenue.date.variation.date_hierarchy:
+    Definition:
+      Binding: {Table: Movie Revenue, VariationSource: Date, VariationSet: Variation, Hierarchy: Date Hierarchy}
+    State: Generated
+    Terms:
+    - date hierarchy: {State: Generated, Weight: 0.97}
+    SemanticType: Time
+
+  movie_revenue.date.variation.date_hierarchy.year:
+    Definition:
+      Binding: {Table: Movie Revenue, VariationSource: Date, VariationSet: Variation, Hierarchy: Date Hierarchy, HierarchyLevel: Year}
+    State: Generated
+    Terms:
+    - year: {State: Generated}
+    - date year: {State: Generated}
+    - date yr: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - yr: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.736}
+    - moment year: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.6}
+    - period year: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.582}
+    SemanticType: Time
+
+  movie_revenue.date.variation.date_hierarchy.quarter:
+    Definition:
+      Binding: {Table: Movie Revenue, VariationSource: Date, VariationSet: Variation, Hierarchy: Date Hierarchy, HierarchyLevel: Quarter}
+    State: Generated
+    Terms:
+    - quarter: {State: Generated}
+    - date quarter: {State: Generated}
+    - date qtr: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.833}
+    - qtr: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.818}
+    - moment quarter: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.6}
+    - period quarter: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.582}
+    SemanticType: Time
+
+  movie_revenue.date.variation.date_hierarchy.month:
+    Definition:
+      Binding: {Table: Movie Revenue, VariationSource: Date, VariationSet: Variation, Hierarchy: Date Hierarchy, HierarchyLevel: Month}
+    State: Generated
+    Terms:
+    - month: {State: Generated}
+    - date month: {State: Generated}
+    - date mth: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - mth: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.736}
+    - moment month: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.6}
+    - period month: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.582}
+    SemanticType: Time
+
+  movie_revenue.date.variation.date_hierarchy.day:
+    Definition:
+      Binding: {Table: Movie Revenue, VariationSource: Date, VariationSet: Variation, Hierarchy: Date Hierarchy, HierarchyLevel: Day}
+    State: Generated
+    Terms:
+    - day: {State: Generated}
+    - date day: {State: Generated}
+    - moment day: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.6}
+    - period day: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.582}
+    SemanticType: Time
+
+  movie_revenue.revenue:
+    Definition:
+      Binding: {Table: Movie Revenue, Column: Revenue}
+    State: Generated
+    Terms:
+    - revenue: {State: Generated}
+    - income: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.736}
+    - profit: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+    - turnover: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+    - yield: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+
+  movie_value:
+    Definition:
+      Binding: {Table: Movie Values}
+    State: Generated
+    Terms:
+    - movie value: {State: Generated}
+    - value: {State: Generated, Weight: 0.97}
+    - movie assessment: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.5}
+    - assessment: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - movie worth: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.485}
+    - movie price: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.485}
+    - movie cost: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.485}
+    - movie charge: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.485}
+    - movie rate: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.485}
+    - worth: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - price: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - cost: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+
+  movie_value.imdb_id:
+    Definition:
+      Binding: {Table: Movie Values, Column: IMDB ID}
+    State: Generated
+    Visibility: Hidden
+    Terms:
+    - imdb id: {State: Generated}
+    - imdb identification: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb identity: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb identifier: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - imdb credential: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+
+  movie_value.budget:
+    Definition:
+      Binding: {Table: Movie Values, Column: Budget}
+    State: Generated
+    Terms:
+    - budget: {State: Generated}
+    - account: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+    - cost: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+    - finance: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.714}
+
+  movie_value.popularity:
+    Definition:
+      Binding: {Table: Movie Values, Column: Popularity}
+    State: Generated
+    Terms:
+    - popularity: {State: Generated}
+    - admiration: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - approval: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - acceptance: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - status: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - reputation: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - attractiveness: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - recognition: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - fame: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - regard: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - esteem: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+
+  movie_value.release_date:
+    Definition:
+      Binding: {Table: Movie Values, Column: Release Date}
+    State: Generated
+    Terms:
+    - release date: {State: Generated}
+    - date: {State: Generated, Weight: 0.7}
+    - release moment: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - release period: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.727}
+    SemanticType: Time
+
+  movie_value.release_date.variation.date_hierarchy:
+    Definition:
+      Binding: {Table: Movie Values, VariationSource: Release Date, VariationSet: Variation, Hierarchy: Date Hierarchy}
+    State: Generated
+    Terms:
+    - release date hierarchy: {State: Generated}
+    - date hierarchy: {State: Generated, Weight: 0.97}
+    SemanticType: Time
+
+  movie_value.release_date.variation.date_hierarchy.year:
+    Definition:
+      Binding: {Table: Movie Values, VariationSource: Release Date, VariationSet: Variation, Hierarchy: Date Hierarchy, HierarchyLevel: Year}
+    State: Generated
+    Terms:
+    - release year: {State: Generated}
+    - year: {State: Generated}
+    - release date year: {State: Generated}
+    - release date yr: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.762}
+    - release yr: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - yr: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.736}
+    - release moment year: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.609}
+    - release period year: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.591}
+    SemanticType: Time
+
+  movie_value.release_date.variation.date_hierarchy.quarter:
+    Definition:
+      Binding: {Table: Movie Values, VariationSource: Release Date, VariationSet: Variation, Hierarchy: Date Hierarchy, HierarchyLevel: Quarter}
+    State: Generated
+    Terms:
+    - release quarter: {State: Generated}
+    - quarter: {State: Generated}
+    - release date quarter: {State: Generated}
+    - release date qtr: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.846}
+    - release qtr: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.833}
+    - qtr: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.818}
+    - release moment quarter: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.609}
+    - release period quarter: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.591}
+    SemanticType: Time
+
+  movie_value.release_date.variation.date_hierarchy.month:
+    Definition:
+      Binding: {Table: Movie Values, VariationSource: Release Date, VariationSet: Variation, Hierarchy: Date Hierarchy, HierarchyLevel: Month}
+    State: Generated
+    Terms:
+    - release month: {State: Generated}
+    - month: {State: Generated}
+    - release date month: {State: Generated}
+    - release date mth: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.762}
+    - release mth: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.75}
+    - mth: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.736}
+    - release moment month: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.609}
+    - release period month: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.591}
+    SemanticType: Time
+
+  movie_value.release_date.variation.date_hierarchy.day:
+    Definition:
+      Binding: {Table: Movie Values, VariationSource: Release Date, VariationSet: Variation, Hierarchy: Date Hierarchy, HierarchyLevel: Day}
+    State: Generated
+    Terms:
+    - release day: {State: Generated}
+    - day: {State: Generated}
+    - release date day: {State: Generated}
+    - release moment day: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.609}
+    - release period day: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.591}
+    SemanticType: Time
+
+  movie_value.runtime:
+    Definition:
+      Binding: {Table: Movie Values, Column: Runtime}
+    State: Generated
+    Terms:
+    - runtime: {State: Generated}
+
+  movie_value.award:
+    Definition:
+      Binding: {Table: Movie Values, Column: Awards}
+    State: Generated
+    Terms:
+    - award: {State: Generated}
+    - accolade: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - prize: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - honor: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - reward: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - gift: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - grant: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - decoration: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - medal: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.476}
+    - verdict: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.466}
+    - decision: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.466}
+
+  movie_value.nomination:
+    Definition:
+      Binding: {Table: Movie Values, Column: Nominations}
+    State: Generated
+    Terms:
+    - nomination: {State: Generated}
+    - proposal: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - suggestion: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - recommendation: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - submission: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.491}
+    - selection: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.466}
+    - appointment: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.466}
+    - nominee: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.466}
+    - candidate: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.466}
+    - choice: {Type: Noun, State: Suggested, Source: {Agent: OfficeThesaurus}, Weight: 0.452}
+
+Relationships:
+  movie_value_release_date_variation_date_hierarchy_has_month:
+    Binding: {Table: Movie Values}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_value.release_date.variation.date_hierarchy, Object: movie_value.release_date.variation.date_hierarchy.month}
+      State: Generated
+      Weight: 0.99
+
+  movie_value_release_date_variation_date_hierarchy_has_quarter:
+    Binding: {Table: Movie Values}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_value.release_date.variation.date_hierarchy, Object: movie_value.release_date.variation.date_hierarchy.quarter}
+      State: Generated
+      Weight: 0.99
+
+  movie_value_release_date_variation_date_hierarchy_has_year:
+    Binding: {Table: Movie Values}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_value.release_date.variation.date_hierarchy, Object: movie_value.release_date.variation.date_hierarchy.year}
+      State: Generated
+      Weight: 0.99
+
+  movie_value_release_date_has_variation_date_hierarchy:
+    Binding: {Table: Movie Values}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_value.release_date, Object: movie_value.release_date.variation.date_hierarchy}
+      State: Generated
+      Weight: 0.99
+
+  movie_revenue_date_variation_date_hierarchy_has_day:
+    Binding: {Table: Movie Revenue}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_revenue.date.variation.date_hierarchy, Object: movie_revenue.date.variation.date_hierarchy.day}
+      State: Generated
+      Weight: 0.99
+
+  movie_revenue_date_variation_date_hierarchy_has_month:
+    Binding: {Table: Movie Revenue}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_revenue.date.variation.date_hierarchy, Object: movie_revenue.date.variation.date_hierarchy.month}
+      State: Generated
+      Weight: 0.99
+
+  movie_revenue_date_variation_date_hierarchy_has_quarter:
+    Binding: {Table: Movie Revenue}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_revenue.date.variation.date_hierarchy, Object: movie_revenue.date.variation.date_hierarchy.quarter}
+      State: Generated
+      Weight: 0.99
+
+  movie_revenue_date_variation_date_hierarchy_has_year:
+    Binding: {Table: Movie Revenue}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_revenue.date.variation.date_hierarchy, Object: movie_revenue.date.variation.date_hierarchy.year}
+      State: Generated
+      Weight: 0.99
+
+  movie_revenue_date_has_variation_date_hierarchy:
+    Binding: {Table: Movie Revenue}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_revenue.date, Object: movie_revenue.date.variation.date_hierarchy}
+      State: Generated
+      Weight: 0.99
+
+  individual_gender_profession_name_profession_has_individual_gender_profession_name_individual_name:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual.gender_profession_name.profession, Object: individual.gender_profession_name.individual_name}
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: individual.gender_profession_name.individual_name, Object: individual.gender_profession_name.profession}
+      State: Generated
+      Weight: 0.99
+    - Preposition:
+        Subject: individual.gender_profession_name.individual_name
+        Prepositions:
+        - in: {State: Generated}
+        Object: individual.gender_profession_name.profession
+      State: Generated
+      Weight: 0.99
+
+  individual_gender_profession_name_gender_has_individual_gender_profession_name_profession:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual.gender_profession_name.gender, Object: individual.gender_profession_name.profession}
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: individual.gender_profession_name.profession, Object: individual.gender_profession_name.gender}
+      State: Generated
+      Weight: 0.99
+    - Preposition:
+        Subject: individual.gender_profession_name.profession
+        Prepositions:
+        - in: {State: Generated}
+        Object: individual.gender_profession_name.gender
+      State: Generated
+      Weight: 0.99
+
+  individual_gender_profession_name_has_individual_name:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual.gender_profession_name, Object: individual.gender_profession_name.individual_name}
+      State: Generated
+      Weight: 0.99
+
+  individual_gender_profession_name_has_profession:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual.gender_profession_name, Object: individual.gender_profession_name.profession}
+      State: Generated
+      Weight: 0.99
+
+  individual_gender_profession_name_has_gender:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual.gender_profession_name, Object: individual.gender_profession_name.gender}
+      State: Generated
+      Weight: 0.99
+
+  movie_value_has_movie:
+    Binding: {Table: Movie Values}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_value, Object: movie}
+      State: Generated
+      Weight: 0.99
+
+  movie_revenue_has_movie:
+    Binding: {Table: Movie Revenue}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_revenue, Object: movie}
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: movie, Object: movie_revenue}
+      State: Generated
+      Weight: 0.99
+
+  genre_has_movie:
+    Binding: {Table: Genre}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: genre, Object: movie}
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: movie, Object: genre}
+      State: Generated
+      Weight: 0.99
+
+  movie_principal_has_movie:
+    Binding: {Table: Movie Principals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_principal, Object: movie}
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: movie, Object: movie_principal}
+      State: Generated
+      Weight: 0.99
+
+  movie_principal_has_individual:
+    Binding: {Table: Movie Principals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_principal, Object: individual}
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: individual, Object: movie_principal}
+      State: Generated
+      Weight: 0.99
+
+  movie_has_movie_value:
+    Binding: {Table: Movies}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie, Object: movie_value}
+      State: Generated
+      Weight: 0.99
+
+  movie_value_has_nomination:
+    Binding: {Table: Movie Values}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_value, Object: movie_value.nomination}
+      State: Generated
+      Weight: 0.99
+
+  movie_value_has_award:
+    Binding: {Table: Movie Values}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_value, Object: movie_value.award}
+      State: Generated
+      Weight: 0.99
+
+  movie_value_has_runtime:
+    Binding: {Table: Movie Values}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_value, Object: movie_value.runtime}
+      State: Generated
+      Weight: 0.99
+
+  movie_value_has_release_date:
+    Binding: {Table: Movie Values}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_value, Object: movie_value.release_date}
+      State: Generated
+      Weight: 0.99
+
+  movie_value_has_popularity:
+    Binding: {Table: Movie Values}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_value, Object: movie_value.popularity}
+      State: Generated
+      Weight: 0.99
+
+  movie_value_has_budget:
+    Binding: {Table: Movie Values}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_value, Object: movie_value.budget}
+      State: Generated
+      Weight: 0.99
+
+  movie_revenue_has_revenue:
+    Binding: {Table: Movie Revenue}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_revenue, Object: movie_revenue.revenue}
+      State: Generated
+      Weight: 0.99
+
+  movie_revenue_has_date:
+    Binding: {Table: Movie Revenue}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_revenue, Object: movie_revenue.date}
+      State: Generated
+      Weight: 0.99
+
+  genre_has_genre:
+    Binding: {Table: Genre}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: genre, Object: genre.genre}
+      State: Generated
+      Weight: 0.99
+
+  movie_principal_has_principals_count:
+    Binding: {Table: Movie Principals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_principal, Object: movie_principal.principals_count}
+      State: Generated
+      Weight: 0.99
+
+  movie_principal_has_character:
+    Binding: {Table: Movie Principals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_principal, Object: movie_principal.character}
+      State: Generated
+      Weight: 0.99
+
+  movie_principal_has_category:
+    Binding: {Table: Movie Principals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_principal, Object: movie_principal.category}
+      State: Generated
+      Weight: 0.99
+
+  individual_has_gender_profession_name:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual, Object: individual.gender_profession_name}
+      State: Generated
+      Weight: 0.99
+
+  individual_has_names_count:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual, Object: individual.names_count}
+      State: Generated
+      Weight: 0.99
+
+  individual_has_gender:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual, Object: individual.gender}
+      State: Generated
+      Weight: 0.99
+
+  individual_has_individual_name:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual, Object: individual.individual_name}
+      State: Generated
+      Weight: 0.99
+    - Name:
+        Subject: individual
+        Name: individual.individual_name
+      State: Generated
+      Weight: 0.99
+
+  individual_has_last_name:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual, Object: individual.last_name}
+      State: Generated
+      Weight: 0.99
+
+  individual_has_first_name:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual, Object: individual.first_name}
+      State: Generated
+      Weight: 0.99
+
+  individual_has_profession:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual, Object: individual.profession}
+      State: Generated
+      Weight: 0.99
+
+  individual_has_year_died:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual, Object: individual.year_died}
+      State: Generated
+      Weight: 0.99
+
+  individual_has_year_born:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: individual, Object: individual.year_born}
+      State: Generated
+      Weight: 0.99
+
+  movie_has_movies_count:
+    Binding: {Table: Movies}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie, Object: movie.movies_count}
+      State: Generated
+      Weight: 0.99
+
+  movie_has_poster_path:
+    Binding: {Table: Movies}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie, Object: movie.poster_path}
+      State: Generated
+      Weight: 0.99
+
+  movie_has_movie_name:
+    Binding: {Table: Movies}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie, Object: movie.movie_name}
+      State: Generated
+      Weight: 0.99
+    - Name:
+        Subject: movie
+        Name: movie.movie_name
+      State: Generated
+      Weight: 0.99
+
+  movie_has_tagline:
+    Binding: {Table: Movies}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie, Object: movie.tagline}
+      State: Generated
+      Weight: 0.99
+
+  movie_has_overview:
+    Binding: {Table: Movies}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie, Object: movie.overview}
+      State: Generated
+      Weight: 0.99
+
+  movie_has_orginal_language:
+    Binding: {Table: Movies}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie, Object: movie.orginal_language}
+      State: Generated
+      Weight: 0.99
+
+  movie_has_homepage:
+    Binding: {Table: Movies}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie, Object: movie.homepage}
+      State: Generated
+      Weight: 0.99
+
+  movie_value_is_released_on_release_date:
+    Binding: {Table: Movie Values}
+    State: Generated
+    SemanticSlots:
+      When: movie_value.release_date
+    Phrasings:
+    - Verb:
+        Verbs:
+        - release: {State: Generated}
+        Object: movie_value
+      State: Generated
+      Weight: 0.9
+
+  individual_is_died_in_year_died:
+    Binding: {Table: Individuals}
+    State: Generated
+    SemanticSlots:
+      When: individual.year_died
+    Phrasings:
+    - Verb:
+        Verbs:
+        - die: {State: Generated}
+        Object: individual
+      State: Generated
+      Weight: 0.9
+
+  individual_is_named_gender_profession_name_individual_name:
+    Binding: {Table: Individuals}
+    State: Generated
+    Phrasings:
+    - Name:
+        Subject: individual
+        Name: individual.gender_profession_name.individual_name
+      State: Generated
+      Weight: 0.99
+
+  movie_value_release_date_variation_date_hierarchy_has_day:
+    Binding: {Table: Movie Values}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: movie_value.release_date.variation.date_hierarchy, Object: movie_value.release_date.variation.date_hierarchy.day}
+      State: Generated
+      Weight: 0.99
+  movie_value_has_popularity_level:
+    Binding: {Table: Movie Values}
+    Phrasings:
+    - Adjective:
+        Subject: movie_value
+        Adjectives: [high, popular, best]
+        Antonyms: [low, unpopular, not popular, worst]
+        Measurement: movie_value.popularity
+
+  movie_value_has_duration:
+    Binding: {Table: Movie Values}
+    Phrasings:
+    - Adjective:
+        Subject: movie_value
+        Adjectives: [long, longest]
+        Antonyms: [short, shortest]
+        Measurement: movie_value.runtime
